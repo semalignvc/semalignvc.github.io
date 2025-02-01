@@ -1,5 +1,3 @@
-_config.yaml
-
 title: SemAlignVC
 description: Enhancing zero-shot timbre conversion using semantic alignment
 show_downloads: False
