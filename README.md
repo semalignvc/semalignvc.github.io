@@ -91,7 +91,7 @@
 }
 
 audio {
-    width: 120px;
+    width: 160px;
 }
 
 /* CSS */
