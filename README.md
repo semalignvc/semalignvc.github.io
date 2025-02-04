@@ -331,3 +331,54 @@ video {
   </tr>
   </tbody>
 </table>
+
+
+## Objective Evaluation
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Source</th>
+    <th class="tg-0pky">Timbre reference</th>
+    <th class="tg-0pky">KNNVC</th>
+    <th class="tg-0pky">HierSpeech++</th>
+    <th class="tg-0pky">UniAudio</th>
+    <th class="tg-0pky">SemAlignVC</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/input-LibriVox_en_US_0020.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/ref-LibriVox_en_US_0031.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/knnvc-LibriVox_en_US_0020-LibriVox_en_US_0031.wav" type="audio/wav">
+      </audio>  
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/hierspeechpp-LibriVox_en_US_0020-LibriVox_en_US_0031.wav" type="audio/wav">
+      </audio>   
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/uniaudio-LibriVox_en_US_0020-LibriVox_en_US_0031.wav" type="audio/wav">
+      </audio>  
+   </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/semalignvc-LibriVox_en_US_0020-LibriVox_en_US_0031.wav" type="audio/wav">
+      </audio>
+   </td>
+  </tr>
+  </tbody>
+</table>
