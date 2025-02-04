@@ -711,7 +711,7 @@ To see how SemAlignVC handles non-human sounds, we apply it to audio clips of no
     </td>
     <td>
       <audio controls>
-        <source src="audio/non_human_voices/human_2-to-chicken.wav" type="audio/wav">
+        <source src="audio/non_human_voices/chicken-to-human_2.wav" type="audio/wav">
       </audio>
     </td>
   </tr>
