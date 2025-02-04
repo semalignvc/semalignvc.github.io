@@ -171,5 +171,37 @@ video {
       </audio>
    </td>
   </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/subjective_evals/input-p272_013_014.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/subjective_evals/ref-f_p240.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/subjective_evals/knnvc-p272_013_014-f_p240.wav" type="audio/wav">
+      </audio>  
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/subjective_evals/hierspeechpp-p272_013_014-f_p240.wav" type="audio/wav">
+      </audio>   
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/subjective_evals/uniaudio-p272_013_014-f_p240.wav" type="audio/wav">
+      </audio>  
+   </td>
+    <td>
+      <audio controls>
+        <source src="audio/subjective_evals/semalignvc-p272_013_014-f_p240.wav" type="audio/wav">
+      </audio>
+   </td>
+  </tr>
   </tbody>
 </table>
