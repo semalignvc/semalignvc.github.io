@@ -612,3 +612,152 @@ In this section, we demonstrate that SemAlignVC can generate similar timbre with
   </tr>
   </tbody>
 </table>
+
+## Converting Non speech voices
+To see how SemAlignVC handles non-human sounds, we apply it to audio clips of non human speech sounds.
+
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Input</th>
+    <th class="tg-0pky">Reference</th>
+    <th class="tg-0pky">Generated</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <th class="tg-0pky">Human</th>
+    <th class="tg-0pky">Dog</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/dog.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human-to-dog.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <th class="tg-0pky">Dog</th>
+    <th class="tg-0pky">Human</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/dog.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/dog-to-human.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <th class="tg-0pky">Human</th>
+    <th class="tg-0pky">Chicken</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_2.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/chicken.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_2-to-chicken.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <th class="tg-0pky">Chicken</th>
+    <th class="tg-0pky">Human</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/chicken.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_2.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_2-to-chicken.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <th class="tg-0pky">Human</th>
+    <th class="tg-0pky">Music Beats</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_3.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/edm.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_3-to-edm.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <th class="tg-0pky">Music Beats</th>
+    <th class="tg-0pky">Human</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/edm.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/human_3.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/non_human_voices/edm-to-human_3.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+  </tbody>
+</table>
