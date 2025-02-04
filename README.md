@@ -476,5 +476,37 @@ video {
       </audio>
    </td>
   </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/input-LibriVox_en_US_0036.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/ref-LibriVox_en_US_0092.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/knnvc-LibriVox_en_US_0036-LibriVox_en_US_0092.wav" type="audio/wav">
+      </audio>  
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/hierspeechpp-LibriVox_en_US_0036-LibriVox_en_US_0092.wav" type="audio/wav">
+      </audio>   
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/uniaudio-LibriVox_en_US_0036-LibriVox_en_US_0092.wav" type="audio/wav">
+      </audio>  
+   </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/semalignvc-LibriVox_en_US_0036-LibriVox_en_US_0092.wav" type="audio/wav">
+      </audio>
+   </td>
+  </tr>
   </tbody>
 </table>
