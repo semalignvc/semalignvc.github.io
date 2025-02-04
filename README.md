@@ -147,7 +147,7 @@ video {
     </td>
     <td>
       <audio controls>
-        <source src="/workspaces/semalignvc.github.io/audio/subjective_evals/ref-f_p229.wav" type="audio/wav">
+        <source src="audio/subjective_evals/ref-f_p229.wav" type="audio/wav">
       </audio> 
     </td>
     <td>
