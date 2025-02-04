@@ -93,7 +93,7 @@ Zero-shot voice conversion (VC) synthesizes speech in a target speaker’s voice
 }
 
 audio {
-    width: 240px;
+    width: 120px;
 }
 
 /* CSS */
@@ -135,7 +135,7 @@ video {
     <th class="tg-0pky">KNNVC</th>
     <th class="tg-0pky">HierSpeech++</th>
     <th class="tg-0pky">UniAudio</th>
-    <th class="tg-0pky">UniAudio</th>
+    <th class="tg-0pky">SemAlignVC</th>
   </tr>
 </thead>
 <tbody>
