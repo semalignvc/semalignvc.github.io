@@ -542,3 +542,73 @@ video {
   </tr>
   </tbody>
 </table>
+
+## Timbre conversion using difference language reference
+In this section, we demonstrate that SemAlignVC can generate similar timbre with references of different languages not seen during training, further confirming the disentanglement of timbre and content.
+
+
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">Timbre reference 1</th>
+    <th class="tg-0pky">Timbre reference 2</th>
+  </tr>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">
+      <audio controls>
+        <source src="audio/different_language/hindi_ref.wav" type="audio/wav">
+      </audio>
+    </th>
+    <th class="tg-0pky">
+      <audio controls>
+        <source src="audio/different_language/chinese_ref.wav" type="audio/wav">
+      </audio>
+    </th>
+  </tr>
+    <tr>
+    <th class="tg-0pky">Input audio</th>
+    <th class="tg-0pky">Output 1</th>
+    <th class="tg-0pky">Output 2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/different_language/input_1.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/different_language/output_1_1.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/different_language/output_1_2.wav" type="audio/wav">
+      </audio>  
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
+        <source src="audio/different_language/input_2.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/different_language/output_2_1.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/different_language/output_2_2.wav" type="audio/wav">
+      </audio>  
+    </td>
+  </tr>
+  </tbody>
+</table>
