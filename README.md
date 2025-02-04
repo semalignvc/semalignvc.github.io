@@ -383,6 +383,38 @@ video {
   <tr>
     <td>
       <audio controls>
+        <source src="audio/objective_evals/input-LibriVox_en_US_10018.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/ref-LibriVox_en_US_0125.wav" type="audio/wav">
+      </audio> 
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/knnvc-LibriVox_en_US_10018-LibriVox_en_US_0125.wav" type="audio/wav">
+      </audio>  
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/hierspeechpp-LibriVox_en_US_10018-LibriVox_en_US_0125.wav" type="audio/wav">
+      </audio>   
+    </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/uniaudio-LibriVox_en_US_10018-LibriVox_en_US_0125.wav" type="audio/wav">
+      </audio>  
+   </td>
+    <td>
+      <audio controls>
+        <source src="audio/objective_evals/semalignvc-LibriVox_en_US_10018-LibriVox_en_US_0125.wav" type="audio/wav">
+      </audio>
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <audio controls>
         <source src="audio/objective_evals/input-LibriVox_en_US_0027.wav" type="audio/wav">
       </audio>
     </td>
